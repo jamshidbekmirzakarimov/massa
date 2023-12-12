@@ -17,7 +17,7 @@ const Header = () => {
     setActiveMenu(null);
   };
   return (
-    <header className="site-header py-[5px] w-full fixed">
+    <header className="site-header py-[5px] w-full  ">
       <div className="container">
         <div className="site-header-wrapper w-full p-[4px] flex items-center flex-col">
           <div className="bg-[#D9D9D9] pt-[4px] pb-[4px] ps-[4px] pe-[32px] flex items-center justify-between w-full rounded-[12px]">
@@ -120,7 +120,7 @@ const Header = () => {
             {activeMenu === "men" && (
               <div>
                 <div className="w-full flex items-center justify-between pb-[10px] mb-[20px] border-b-[1px] border-[#333] px-[8px]">
-                  <h2 className="font-bold leading-normal text-[16px] text-[#fff]">
+                  <h2 className="font-bold leading-normal text-[16px] text-[#fff] uppercase">
                     MEN
                   </h2>
                   <button
@@ -138,32 +138,84 @@ const Header = () => {
               </div>
             )}
             {activeMenu === "women" && (
-              <ul>
-                <li>Menu item 4</li>
-                <li>Menu item 5</li>
-                <li>Menu item 6</li>
-              </ul>
+              <div>
+                <div className="w-full flex items-center justify-between pb-[10px] mb-[20px] border-b-[1px] border-[#333] px-[8px]">
+                  <h2 className="font-bold leading-normal text-[16px] text-[#fff] uppercase">
+                    women
+                  </h2>
+                  <button
+                    className="close-button border-s-[1px] border-[#333] ps-[21px] "
+                    onClick={handleCloseButtonClick}
+                  >
+                    <img src={Close} alt="" />
+                  </button>
+                </div>
+                <ul>
+                  <li>Menu item 1</li>
+                  <li>Menu item 2</li>
+                  <li>Menu item 3</li>
+                </ul>
+              </div>
             )}
             {activeMenu === "children" && (
-              <ul>
-                <li>Menu item 7</li>
-                <li>Menu item 8</li>
-                <li>Menu item 9</li>
-              </ul>
+              <div>
+                <div className="w-full flex items-center justify-between pb-[10px] mb-[20px] border-b-[1px] border-[#333] px-[8px]">
+                  <h2 className="font-bold leading-normal text-[16px] text-[#fff] uppercase">
+                    children
+                  </h2>
+                  <button
+                    className="close-button border-s-[1px] border-[#333] ps-[21px] "
+                    onClick={handleCloseButtonClick}
+                  >
+                    <img src={Close} alt="" />
+                  </button>
+                </div>
+                <ul>
+                  <li>Menu item 1</li>
+                  <li>Menu item 2</li>
+                  <li>Menu item 3</li>
+                </ul>
+              </div>
             )}
             {activeMenu === "sale" && (
-              <ul>
-                <li>Menu item 10</li>
-                <li>Menu item 11</li>
-                <li>Menu item 12</li>
-              </ul>
+              <div>
+                <div className="w-full flex items-center justify-between pb-[10px] mb-[20px] border-b-[1px] border-[#333] px-[8px]">
+                  <h2 className="font-bold leading-normal text-[16px] text-[#fff] uppercase">
+                    sale
+                  </h2>
+                  <button
+                    className="close-button border-s-[1px] border-[#333] ps-[21px] "
+                    onClick={handleCloseButtonClick}
+                  >
+                    <img src={Close} alt="" />
+                  </button>
+                </div>
+                <ul>
+                  <li>Menu item 1</li>
+                  <li>Menu item 2</li>
+                  <li>Menu item 3</li>
+                </ul>
+              </div>
             )}
             {activeMenu === "collection" && (
-              <ul>
-                <li>Menu item 13</li>
-                <li>Menu item 14</li>
-                <li>Menu item 15</li>
-              </ul>
+              <div>
+                <div className="w-full flex items-center justify-between pb-[10px] mb-[20px] border-b-[1px] border-[#333] px-[8px]">
+                  <h2 className="font-bold leading-normal text-[16px] text-[#fff] uppercase">
+                    collection
+                  </h2>
+                  <button
+                    className="close-button border-s-[1px] border-[#333] ps-[21px] "
+                    onClick={handleCloseButtonClick}
+                  >
+                    <img src={Close} alt="" />
+                  </button>
+                </div>
+                <ul>
+                  <li>Menu item 1</li>
+                  <li>Menu item 2</li>
+                  <li>Menu item 3</li>
+                </ul>
+              </div>
             )}
           </div>
         )}

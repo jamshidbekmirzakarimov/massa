@@ -6,11 +6,11 @@ import { Outlet } from "react-router-dom";
 const Layout = () => {
   return (
     <>
-      <div>
+        <div>
         <Header />
         <Outlet />
         <Footer />
-      </div>
+        </div>
     </>
   );
 };
