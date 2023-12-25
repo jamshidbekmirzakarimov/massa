@@ -1,11 +1,11 @@
 import React from 'react'
-import Hero from '../../components/Hero/Hero'
+import { AllMenu, Hero } from '../../Modules'
 
 const Home = () => {
   return (
     <>
     <Hero/>
-    erfgerf
+    <AllMenu/>
     </>
   )
 }

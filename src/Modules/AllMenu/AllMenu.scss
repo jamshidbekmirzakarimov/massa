@@ -1,0 +1,40 @@
+// AllMenu.scss
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 350px 250px;
+  gap: 10px;
+}
+
+.card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card:nth-child(1) {
+  background-color: #ff6f00;
+  height: 350px;
+}
+
+.card:nth-child(2) {
+  background-color: red;
+  height: 250px;
+}
+
+.card:nth-child(3) {
+  background-color: blue;
+  height: 250px;
+}
+
+.card:nth-child(4) {
+  background-color: green;
+  height: 350px;
+}
