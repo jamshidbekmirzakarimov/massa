@@ -97,16 +97,16 @@ const Header = () => {
                   Uzbek
                 </option>
               </select>
-              <div className=" bg-[#BFBFBF] h-[50px] w-[1px] mx-[36px]"></div>
+              <div className="flex items-center bg-[#BFBFBF] h-[50px] w-[1px] mx-[36px]"></div>
               <div className="flex items-center">
                 <img className="pe-[16px]" src={User} alt="" />
                 <div className="w-[1px] h-[16px] bg-[#BFBFBF] me-[16px]"></div>
-                <div className="flex items-center flex-col pe-[16px]">
+                <div className="flex items-center flex-col pe-[16px] gap-[2px]">
                   <img src={Heart} alt="" />
                   <div className="w-[4px] h-[4px] bg-[#FB1919] rounded"></div>
                 </div>
                 <div className="w-[1px] h-[16px] bg-[#BFBFBF] me-[16px]"></div>
-                <div className="flex items-center flex-col gap-1">
+                <div className="flex items-center flex-col gap-[2px]">
                   <img src={Basket} alt="" />
                   <div className="w-[4px] h-[4px] bg-[#FB1919] rounded"></div>
                 </div>

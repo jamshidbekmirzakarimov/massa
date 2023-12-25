@@ -1,5 +1,5 @@
 import React from 'react'
-import RouterPage from './page/RouterPage/RouterPage'
+import RouterPage from './Pages/routerrage/RouterPage'
 
 const App = () => {
   return (
